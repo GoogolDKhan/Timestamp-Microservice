@@ -11,6 +11,19 @@
    <body>
     <h1>Timestamp Microservice</h1>
     <hr />
+
+    <form action="/api/" method="POST">
+      <label for="url_input">Enter an ISO Date or Timestamp</label>
+      <input id="url_input" type="text" name="input" />
+      <input type="submit" value="GET TIME" />
+    </form>
+
+    <button onclick="window.location.href='/api/'">
+      Get Current Time
+    </button>
+
+    <hr/>
+
     <div class="container">
       <h3>Example Usage:</h3>
       <ul>
@@ -25,7 +38,7 @@
     </div>
     <div class="footer">
       <p>
-        By <a href="https://www.freecodecamp.org/">freeCodeCamp.org</a>
+        By <a href="https://www.freecodecamp.org/sarfarazkhan/">Sarfaraz Khan</a>
       </p>
     </div>
   </body>
